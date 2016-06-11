@@ -25,7 +25,8 @@ asdf1.o  asdf2.o  _digests  _log  myocamlbuild  myocamlbuild.cmi  myocamlbuild.c
 690:ocamlbuild-protoc                       --  ocaml-protoc plugin for Ocamlbuild
 697:ocamlfind                            1.6.2  A library manager for OCaml
 698:ocamlfind-lint                          --  Simple tool performing checks on ins
-➜  ocamlbuild-o-wtf git:(master) ✗ 
+➜  ocamlbuild-o-wtf git:(master) opam pin
+lablqt.9999   (uninstalled)  path  /home/kakadu/prog/ocaml/lablqt/lablqml
 
 ````
 
