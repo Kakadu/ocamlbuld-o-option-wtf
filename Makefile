@@ -4,9 +4,7 @@ OB=ocamlbuild -use-ocamlfind -classic-display -j 2
 
 
 all: 
-	$(OB)  \
-    src/moc_controller.c  \
-    src/libcppstubs.a \
+	$(OB)  src/libcppstubs.a
 
 
 clean:
