@@ -1,3 +1,4 @@
+(*
 open Ocamlbuild_plugin
 open Command
 
@@ -49,7 +50,7 @@ let resource_depends =
   [ "ui/Root.qml";
   ]
 
-let () =
+let ____ () =
   dispatch begin function
   | After_rules ->
     rule "Qt_moc: %.h -> moc_%.c"
@@ -81,3 +82,4 @@ let () =
     ()
   | _ -> ()
   end
+*)
